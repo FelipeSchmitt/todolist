@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <h1>Minha lista de tarefas</h1>
+    <input type="text" name="newTask" id="newTask" />
+    <button onclick="addTask()">Adicionar</button>
+    <hr>
+    <ul id="taskList"></ul>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+    <script src="todo.js"></script>
+</body> 
+</html>
